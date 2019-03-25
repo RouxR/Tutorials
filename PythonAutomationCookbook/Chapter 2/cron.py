@@ -27,3 +27,5 @@ if __name__ == '__main__':
         args.n2 = int(config['DEFAULT']['n2'])
 
     main(args.n1, args.n2, args.output)
+   
+# Run "* * * * * python3 cron.py -o automation.log" in crontab
