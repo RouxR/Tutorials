@@ -1,0 +1,7 @@
+The result is 4.0
+The result is 4.0
+The result is 4.0
+The result is 0.2
+The result is 1.0
+The result is 1.0
+The result is 5.0

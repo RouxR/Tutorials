@@ -13,7 +13,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--config', '-c', type=argparse.FileType('r'),
                         help='config file',
-                        default='etc/automate.ini')
+                        default='/home/ruben/PycharmProjects/Discovery/PythonAutomationCookbook/Chapter2/etc/automate.ini')
     parser.add_argument('-o', dest='output', type=argparse.FileType('a'),
                         help='output file',
                         default=sys.stdout)
