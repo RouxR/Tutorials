@@ -29,9 +29,12 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     if args.log:
-        logging.basicConfig(format=LOG_FORMAT, filename=args.log, level=LOG_LEVEL)
+        logging.basicConfig(format=LOG_FORMAT,
+                            filename=args.log,
+                            level=LOG_LEVEL)
     else:
-        logging.basicConfig(format=LOG_FORMAT, level=LOG_LEVEL)
+        logging.basicConfig(format=LOG_FORMAT,
+                            level=LOG_LEVEL)
 
     try:
         main(args.n1, args.n2, args.output)
